@@ -1,0 +1,38 @@
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Dirooz FD";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Dirooz FD';
+  src: url('/src/components/fonts/Dirooz.ttf');
+  font-style: medium;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #121212;
+    font-family: "Dirooz FD !important";
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+
